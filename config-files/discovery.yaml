@@ -7,8 +7,9 @@ eureka:
     health-check-url-path: /actuator/health
     status-page-url-path: /actuator/info
   client:
-    registerWithEureka: false
+    register-with-eureka: false
     fetchRegistry: false
 logging:
   level:
+    com.netflix.discovery: 'ON'
     org.springframework.cloud: 'DEBUG'
