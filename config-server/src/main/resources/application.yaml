@@ -1,0 +1,10 @@
+server:
+  port: 5000
+
+spring:
+  cloud:
+    config:
+      name: config
+      server:
+        git:
+          uri:https://github.com/francislagueu
